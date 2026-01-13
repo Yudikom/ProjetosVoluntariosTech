@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLUÇÃO - Refrigeração e Peças Elétricas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Fundo escuro suave para o Hero para destacar o GIF e o Texto */
+        .hero-bg {
+            background-color: #0f172a; /* Slate 900 */
+            background-image: radial-gradient(#1e293b 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex flex-col">
+                <h1 class="text-2xl font-bold text-blue-900 tracking-tighter">SOLUÇÃO</h1>
+                <span class="text-xs text-blue-600 font-semibold uppercase tracking-widest">Refrigeração e Peças Elétricas</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#inicio" class="hover:text-blue-600 transition">Início</a>
+                <a href="#servicos" class="hover:text-blue-600 transition">Serviços</a>
+                <a href="#diferenciais" class="hover:text-blue-600 transition">Diferenciais</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-bg min-h-screen flex items-center pt-20 pb-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2 text-white text-center md:text-left z-10">
+                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                        Fazer manutenção do seu ar condicionado é cuidar da sua <span class="text-blue-400">saúde!</span>
+                    </h2>
+                    <p class="text-lg md:text-xl mb-8 text-gray-300">
+                        Prolongue a vida útil do seu aparelho! Agende sua manutenção hoje mesmo com especialistas.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="https://wa.me/5564992902925?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento" 
+                        target="_blank"
+                        class="inline-flex items-center justify-center bg-green-500 text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-green-600 transition transform hover:-translate-y-1 shadow-lg">
+                            <i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                            Solicitar Orçamento
+                        </a>
+
+                        <a href="mailto:solucaocn@gmail.com" 
+                        class="inline-flex items-center justify-center bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-white hover:text-blue-900 transition transform hover:-translate-y-1 shadow-lg">
+                            <i class="fas fa-envelope mr-3 text-2xl"></i>
+                            Enviar E-mail
+                        </a>
+                    </div>
+                    <p class="mt-6 text-sm text-gray-400"><i class="fas fa-map-marker-alt mr-2"></i>Atendemos Caldas Novas - GO e região</p>
+                </div>
+
+                <div class="md:w-1/2 w-full flex justify-center z-10">
+                    <div class="relative w-full max-w-lg">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl blur opacity-30"></div>
+                        <img src="https://i.postimg.cc/T3rmBny2/animação3.gif" 
+                             alt="Animação Técnica Solução" 
+                             class="relative rounded-2xl shadow-2xl w-full border-4 border-gray-800 bg-gray-900 object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="diferenciais" class="py-16 bg-white relative -mt-8 rounded-t-3xl z-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="text-blue-900 font-bold text-3xl uppercase">Nossos Diferenciais</h3>
+                <div class="w-24 h-1 bg-blue-500 mx-auto mt-2"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="p-6 border border-gray-100 shadow rounded-xl hover:shadow-lg transition text-center bg-gray-50">
+                    <i class="fas fa-toolbox text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">Multi-Especialistas</h4>
+                    <p class="text-sm text-gray-600">Ar, Geladeira, Lavadora, Açougue e Ordenhadeiras.</p>
+                </div>
+                <div class="p-6 border border-gray-100 shadow rounded-xl hover:shadow-lg transition text-center bg-gray-50">
+                    <i class="fas fa-certificate text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">Qualidade</h4>
+                    <p class="text-sm text-gray-600">Equipe que preza pela excelência técnica.</p>
+                </div>
+                <div class="p-6 border border-gray-100 shadow rounded-xl hover:shadow-lg transition text-center bg-gray-50">
+                    <i class="fas fa-hand-holding-usd text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">Preço Justo</h4>
+                    <p class="text-sm text-gray-600">Valores honestos e transparentes.</p>
+                </div>
+                <div class="p-6 border border-gray-100 shadow rounded-xl hover:shadow-lg transition text-center bg-gray-50">
+                    <i class="fas fa-bolt text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">Peças Elétricas</h4>
+                    <p class="text-sm text-gray-600">Venda e instalação de componentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="text-blue-900 font-bold text-3xl uppercase">Nossos Serviços</h3>
+                <p class="text-gray-600 mt-2">Lista completa de soluções técnicas</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 border-l-4 border-blue-600">
+                    <h4 class="font-bold text-xl mb-4 text-blue-800"><i class="fas fa-wind mr-2"></i>Ar Condicionado (Essencial)</h4>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Instalação (Split, janela, cassete, piso-teto, VRF)</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Manutenção preventiva (limpeza, filtros, gás)</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Manutenção corretiva (falhas, peças, vazamentos)</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Carga e recarga de gás refrigerante</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Limpeza profunda com máquina (anti-alérgica)</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Desinstalação e reinstalação</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 border-l-4 border-blue-400">
+                    <h4 class="font-bold text-xl mb-4 text-blue-600"><i class="fas fa-microchip mr-2"></i>Ar Condicionado (Especializado)</h4>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Instalação de dreno e correção de gotejamento</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Reparo de placas eletrônicas</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Balanceamento de carga térmica</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Instalação de rede frigorígena (obras novas)</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Automação e controle inteligente (Wi-Fi, Alexa)</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 border-l-4 border-cyan-500">
+                    <h4 class="font-bold text-xl mb-4 text-cyan-700"><i class="fas fa-snowflake mr-2"></i>Geladeiras e Freezers</h4>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Conserto de geladeiras e freezers</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Troca de termostato, sensor, relé, compressor</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Identificação e reparo de vazamento de gás</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Recarga de gás refrigerante</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Desobstrução de dreno e troca de borrachas</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Ajuste de temperatura e regulagem geral</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 border-l-4 border-indigo-500">
+                    <h4 class="font-bold text-xl mb-4 text-indigo-700"><i class="fas fa-tshirt mr-2"></i>Lavadoras (Todas as Marcas)</h4>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Conserto geral e Manutenção preventiva</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Troca de rolamentos, retentores e correias</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Reparo/troca de bomba de drenagem e eletrobomba</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Troca de pressostato, capacitor e amortecedores</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Reparo de placa eletrônica</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Desobstrução de mangueiras e drenos</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Diagnóstico de barulhos e trepidações</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 border-l-4 border-red-600">
+                    <h4 class="font-bold text-xl mb-4 text-red-700"><i class="fas fa-tools mr-2"></i>Manutenção para Açougue</h4>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Conserto de moedores de carne</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Reparo de serra-fita (fita, alinhamento, lubrificação)</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Manutenção de amaciadores de carne</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Reparo de balanças eletrônicas</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Conserto de embaladoras a vácuo</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Ajuste/troca de lâminas e facas profissionais</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Manutenção de afiadores elétricos</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 border-l-4 border-red-400">
+                    <h4 class="font-bold text-xl mb-4 text-red-600"><i class="fas fa-hard-hat mr-2"></i>Instalação para Açougue</h4>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Instalação de moedores, serra-fita e amaciadores</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Montagem de balcões frigoríficos e expositores</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Instalação de sistemas de exaustão e coifas</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Ajuste de layout para fluxo de trabalho</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 border-l-4 border-yellow-500 xl:col-span-3 lg:col-span-2">
+                    <h4 class="font-bold text-xl mb-4 text-yellow-700"><i class="fas fa-cow mr-2"></i>Ordenhadeiras e Tanques de Leite</h4>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Conserto de bombas de vácuo</li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Troca de mangueiras, teteiras e coletores</li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Reparo de pulsadores pneumáticos ou eletrônicos</li>
+                        </ul>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Troca de rolamentos, correias e motores</li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Ajuste e calibração do sistema de vácuo</li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i>Reparo de linhas de leite e substituição de peças</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-1 lg:col-span-1">
+                    <h4 class="text-white text-2xl font-bold mb-4 tracking-tight">SOLUÇÃO</h4>
+                    <p class="text-sm text-gray-400">Refrigeração, Peças Elétricas e Manutenção Especializada.</p>
+                </div>
+
+                <div class="col-span-1 lg:col-span-2">
+                    <h5 class="text-white font-bold mb-4 uppercase text-sm">Canais de Atendimento</h5>
+                    <div class="flex flex-col md:flex-row gap-8">
+                        <div>
+                            <p class="text-xs text-gray-500 uppercase font-bold">Telefone / WhatsApp</p>
+                            <a href="https://wa.me/5564992902925" target="_blank" class="text-lg text-white hover:text-green-400 transition">
+                                <i class="fab fa-whatsapp mr-2"></i> +55 64 99290-2925
+                            </a>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-500 uppercase font-bold">Instagram</p>
+                            <a href="https://www.instagram.com/solucao.cn/" target="_blank" class="text-lg text-white hover:text-pink-500 transition">
+                                <i class="fab fa-instagram mr-2"></i> @solucao.cn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-white font-bold mb-4 uppercase text-sm">Dados da Empresa</h5>
+                    <p class="text-sm mb-1"><i class="far fa-file-alt mr-2"></i>CNPJ: 34.394.314/0001-38</p>
+                    <p class="text-sm"><i class="fas fa-map-marker-alt mr-2"></i>Caldas Novas - GO</p>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+                <p>&copy; 2026 Solução Refrigeração. Todos os direitos reservados.</p>
+                <p>Desenvolvido para alta performance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5564992902925?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento" class="whatsapp-float bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition" target="_blank" aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp text-4xl"></i>
+    </a>
+
+</body>
+</html>
